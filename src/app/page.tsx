@@ -8,7 +8,7 @@ export default function Home() {
       {/* Banner principal */}
       <section className="relative w-full h-72 md:h-96">
         <Image
-          src="/banner.jpg" // 👈 coloca aquí tu imagen de la empresa en /public/banner.jpg
+          src="/banner.png" // 👈 coloca aquí tu imagen de la empresa en /public/banner.jpg
           alt="Banner DLD Services S.A.S"
           fill
           className="object-cover opacity-80"
@@ -66,7 +66,7 @@ export default function Home() {
         {/* Diego */}
         <div className="flex flex-col items-center text-center">
           <Image
-            src="/diego.jpg" // 👈 coloca foto de Diego en /public/diego.jpg
+            src="/Foto.jpeg" // 👈 coloca foto de Diego en /public/diego.jpg
             alt="Foto de Diego Armando Aguazaco Criollo"
             width={200}
             height={200}
