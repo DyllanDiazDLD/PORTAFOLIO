@@ -8,10 +8,10 @@ export default function Home() {
       {/* Banner principal */}
       <section className="relative w-full h-72 md:h-96">
         <Image
-          src="/banner.png" // 👈 coloca aquí tu imagen de la empresa en /public/banner.jpg
+          src="/banner.jpg" 
           alt="Banner DLD Services S.A.S"
           fill
-          className="object-cover opacity-80"
+          className="object-cover opacity-100"
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50">
           <h1 className="text-4xl md:text-6xl font-bold mb-2">
@@ -66,7 +66,7 @@ export default function Home() {
         {/* Diego */}
         <div className="flex flex-col items-center text-center">
           <Image
-            src="/Foto.jpeg" // 👈 coloca foto de Diego en /public/diego.jpg
+            src="/Foto.jpeg" 
             alt="Foto de Diego Armando Aguazaco Criollo"
             width={200}
             height={200}
@@ -79,7 +79,7 @@ export default function Home() {
         {/* Dyllan */}
         <div className="flex flex-col items-center text-center">
           <Image
-            src="/dyllan.jpg" // 👈 coloca tu foto en /public/dyllan.jpg
+            src="/dyllan.jpg" 
             alt="Foto de Dyllan Aiory Díaz Roa"
             width={200}
             height={200}
