@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center bg-gray-900 text-white">
       {/* Banner principal */}
-      <section className="relative max-w-full h-auto">
+      <section className="relative maxrelative w-full h-40 sm:h-56 md:h-72 lg:h-96-w-full h-auto">
         <Image
           src="/banner.jpg" 
           alt="Banner DLD Services S.A.S"
