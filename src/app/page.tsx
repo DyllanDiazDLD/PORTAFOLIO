@@ -13,7 +13,7 @@ export default function Home() {
           fill
           className="object-cover opacity-100"
         />
-        <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50">
+        <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/40">
           <h1 className="text-4xl md:text-6xl font-bold mb-2">
             DLD Services S.A.S
           </h1>
