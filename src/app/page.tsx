@@ -1,19 +1,21 @@
 // app/page.tsx
 import Image from "next/image";
 import { CalendarDays } from "lucide-react";
+import PageWrapper from "@/app/Components/PageWrapper";
 
 export default function Home() {
   return (
+    <PageWrapper>
     <main className="flex min-h-screen flex-col items-center bg-gray-900 text-white">
       {/* Banner principal */}
-      <section className="relative maxrelative w-full h-40 sm:h-56 md:h-72 lg:h-96-w-full h-auto">
+      <section className="relative w-full h-72 md:h-96">
         <Image
           src="/banner.jpg" 
           alt="Banner DLD Services S.A.S"
           fill
-          className="object-cover opacity-100"
+          className="object-cover opacity-80"
         />
-        <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/40">
+        <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/20">
           <h1 className="text-4xl md:text-6xl font-bold mb-2">
             DLD Services S.A.S
           </h1>
@@ -28,7 +30,7 @@ export default function Home() {
           Somos <span className="font-bold">Diego Armando Aguazaco Criollo</span> 
           y <span className="font-bold">Dyllan Aiory Díaz Roa</span>, 
           cofundadores de <span className="font-bold">DLD Services S.A.S</span>.  
-          Unimos la ingeniería y el desarrollo web para crear soluciones digitales e innovadoras.
+          Unimos la ingeniería y el desarrollo web para crear soluciones digitales y mecatrónicas innovadoras.
         </p>
 
         {/* Fecha */}
@@ -66,7 +68,7 @@ export default function Home() {
         {/* Diego */}
         <div className="flex flex-col items-center text-center">
           <Image
-            src="/Foto.jpeg" 
+            src="/Foto.jpeg" // 👈 coloca foto de Diego en /public/diego.jpg
             alt="Foto de Diego Armando Aguazaco Criollo"
             width={200}
             height={200}
@@ -79,7 +81,7 @@ export default function Home() {
         {/* Dyllan */}
         <div className="flex flex-col items-center text-center">
           <Image
-            src="/dyllan.jpg" 
+            src="/dyllan.jpg" // 👈 coloca tu foto en /public/dyllan.jpg
             alt="Foto de Dyllan Aiory Díaz Roa"
             width={200}
             height={200}
@@ -90,5 +92,6 @@ export default function Home() {
         </div>
       </section>
     </main>
+</PageWrapper>
   );
 }
