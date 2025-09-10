@@ -27,7 +27,7 @@ export default function Home() {
       <section className="flex flex-col items-center p-8">
         <h2 className="text-3xl font-semibold mt-6">Bienvenidos</h2>
         <p className="text-gray-300 text-center mt-2 mb-6 max-w-2xl">
-          Somos <span className="font-bold">Diego Armando Aguazaco Criollo</span> 
+          Somos <span className="font-bold">Diego Armando Aguazaco Criollo </span> 
           y <span className="font-bold">Dyllan Aiory Díaz Roa</span>, 
           cofundadores de <span className="font-bold">DLD Services S.A.S</span>.  
           Unimos la ingeniería y el desarrollo web para crear soluciones digitales y mecatrónicas innovadoras.
