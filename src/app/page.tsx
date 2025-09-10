@@ -81,7 +81,7 @@ export default function Home() {
         {/* Dyllan */}
         <div className="flex flex-col items-center text-center">
           <Image
-            src="/dyllan.jpg" // 👈 coloca tu foto en /public/dyllan.jpg
+            src="/DYLLAN2.jpg" // 👈 coloca tu foto en /public/dyllan.jpg
             alt="Foto de Dyllan Aiory Díaz Roa"
             width={200}
             height={200}
