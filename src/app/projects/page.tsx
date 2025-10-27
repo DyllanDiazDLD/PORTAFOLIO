@@ -1,7 +1,7 @@
 // app/projects/page.tsx
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
-import PageWrapper from "@/app/Components/PageWrapper";
+import PageWrapper from "@/Components/PageWrapper";
 
 export default function ProjectsPage() {
 
