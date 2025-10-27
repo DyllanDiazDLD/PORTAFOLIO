@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "@/Styles/globals.css";
+import "@/Styles/global.css";
 
 export const metadata: Metadata = {
   title: "Bold Mind Works",
@@ -13,7 +13,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body>{children}</body>
+      <body>
+        {children}
+      </body>
     </html>
   );
 }

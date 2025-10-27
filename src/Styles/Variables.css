@@ -1,0 +1,30 @@
+/* src/Styles/variables.css */
+
+:root {
+  /* 🎨 Colores principales */
+  --color-primary: #0d9488; /* Verde azulado */
+  --color-secondary: #334155; /* Gris oscuro elegante */
+  --color-accent: #fbbf24; /* Amarillo dorado */
+  --color-bg: #f8fafc; /* Fondo claro */
+  --color-text: #0f172a; /* Texto principal */
+  --color-muted: #64748b; /* Texto secundario */
+
+  /* 🖋 Tipografía */
+  --font-main: "Inter", sans-serif;
+  --font-display: "Poppins", sans-serif;
+
+  /* ⚙️ Espaciado y bordes */
+  --radius-md: 12px;
+  --radius-lg: 24px;
+  --shadow-md: 0 2px 6px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  /* 🕶 Modo oscuro (opcional) */
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --color-bg: #0f172a;
+      --color-text: #f8fafc;
+      --color-secondary: #1e293b;
+    }
+  }
+}
