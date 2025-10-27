@@ -19,9 +19,9 @@ export default function ProjectsPage() {
       link: "#",
     },
     {
-      title: "Portafolio Web con Next.js",
+      title: "Biblioteca de Componentes UI en React",
       description:
-        "Página personal responsive desarrollada en React y Next.js para mostrar proyectos.",
+        "Página personal responsive desarrollada en React y Next.js para mostrar nuestras habilidades.",
       link: "#",
     },
   ];
