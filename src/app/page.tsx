@@ -11,13 +11,13 @@ export default function Home() {
       <section className="relative w-full h-72 md:h-96">
         <Image
           src="/banner.jpg" 
-          alt="Banner DLD Services S.A.S"
+          alt="Banner Bold Mind Works"
           fill
           className="object-cover opacity-80"
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/20">
           <h1 className="text-4xl md:text-6xl font-bold mb-2">
-            DLD Services S.A.S
+            Bold Mind Works
           </h1>
           <p className="text-lg text-gray-300">Innovación y tecnología a tu alcance</p>
         </div>
@@ -29,7 +29,7 @@ export default function Home() {
         <p className="text-gray-300 text-center mt-2 mb-6 max-w-2xl">
           Somos <span className="font-bold">Diego Armando </span> 
           y <span className="font-bold">Dyllan Aiory Díaz Roa</span>, 
-          cofundadores de <span className="font-bold">DLD Services S.A.S</span>.  
+          cofundadores de <span className="font-bold">Bold Mind Works</span>.  
           Unimos la ingeniería y el desarrollo web para crear soluciones digitales y mecatrónicas innovadoras.
         </p>
 
@@ -68,7 +68,7 @@ export default function Home() {
         {/* Diego */}
         <div className="flex flex-col items-center text-center">
           <Image
-            src="/Foto.jpeg" // 👈 coloca foto de Diego en /public/diego.jpg
+            src="/Foto.jpeg" 
             alt="Foto de Diego Armando Aguazaco Criollo"
             width={200}
             height={200}
@@ -81,7 +81,7 @@ export default function Home() {
         {/* Dyllan */}
         <div className="flex flex-col items-center text-center">
           <Image
-            src="/DYLLAN2.jpg" // 👈 coloca tu foto en /public/dyllan.jpg
+            src="/DYLLAN2.jpg" 
             alt="Foto de Dyllan Aiory Díaz Roa"
             width={200}
             height={200}
