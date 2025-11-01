@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "@/Styles/globals.css";
+import "@/Styles/global.css";
 
 export const metadata: Metadata = {
   title: "Bold Mind Works",
