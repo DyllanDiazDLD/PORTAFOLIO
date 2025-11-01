@@ -1,4 +1,4 @@
-import "@/ESP32.styles.css";
+import "@app/projects/SCT ESP32/ESP32.Styles.css";
 import SectionTitle from "@/Components/SectionTitle";
 import TechBadge from "@/Components/TechBadge";
 
