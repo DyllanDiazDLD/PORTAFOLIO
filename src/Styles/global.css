@@ -1,8 +1,9 @@
-/* src/Styles/global.css */
+
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@500;700&display=swap");
-@import "./reset.css";
-@import "./variables.css";
+@import "@/Styles/reset.css";
+@import "@/Styles/variables.css";
+
 
 body {
   background-color: var(--color-bg);
@@ -14,7 +15,6 @@ body {
   margin: 0;
 }
 
-/* Links */
 a {
   color: var(--color-primary);
   text-decoration: none;
@@ -25,14 +25,14 @@ a:hover {
   color: var(--color-accent);
 }
 
-/* Títulos */
+
 h1, h2, h3, h4, h5 {
   font-family: var(--font-display);
   color: var(--color-secondary);
   letter-spacing: -0.5px;
 }
 
-/* Contenedores */
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
