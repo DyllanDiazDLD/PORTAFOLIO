@@ -6,10 +6,10 @@ export default function ESP32ProjectPage() {
   return (
     <div className="esp32-container">
       <div className="project-header">
-        <h1 className="text-3xl font-bold text-[var(--primary)]">
+        <h1 className="text-3xl font-bold text-(--primary)">
           Proyecto Control de Tanque con ESP32
         </h1>
-        <p className="text-[var(--text-muted)]">
+        <p className="text-(--text-muted)">
           Medición ultrasónica + Control bomba + Dashboard web
         </p>
       </div>
