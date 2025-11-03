@@ -42,7 +42,7 @@ export default function ESP32ProjectPage() {
         <SectionTitle title="Repositorio" />
         <a
           href="https://github.com/DyllanDiazDLD/ESP32-Tank-Control"
-          className="text-[var(--primary)] underline"
+          className="text-(--primary) underline"
           target="_blank"
         >
           Ver en GitHub →
